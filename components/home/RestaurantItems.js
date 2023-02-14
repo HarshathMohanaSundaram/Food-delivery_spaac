@@ -1,6 +1,10 @@
 import { View, Text, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import BootstrapStyleSheet from 'react-native-bootstrap-styles';
+
+const bootstrapStyleSheet = new BootstrapStyleSheet();
+const { s, c } = bootstrapStyleSheet;
 
 export const localRestaurants = [
     {
